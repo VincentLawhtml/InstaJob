@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+header{
+    width: 100%;
+}
+
+nav{
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    padding: 10px;
+    position: fixed;
+    height: 50px;    
+    color:white;
+}
+
+nav h1{
+    font-size: 30px;
+font-family: 'Lexend Deca', sans-serif;
+    transition: 0.6s;
+}
+
+.contenedor-nav{
+    display: flex;
+    width: 90%;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+}
+  
+nav #enlaces a{
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    color: black;
+}
+  
+nav #enlaces a:hover{
+    border-bottom: 3px solid black;
+    transition: 0.6s;
+}
+
+nav.sticky{
+    background: white;
+    color: #C82115;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.contenedor-nav .icon-Logo{
+    font-size: 40px;
+}
+
+.contenedor-nav .icon-Logo:hover{
+    color: #C82115;
+    transition: 0.6s;
+}
+

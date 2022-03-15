@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{ 
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2, h3{
+    font-family: 'PT Sans', sans-serif;}
+
+article{
+    width: 500px;
+    position: relative;
+    float: left;
+}
+
+.contactos{
+    margin: 90px;
+}
+
+.titulo{
+    margin-bottom: 50px;
+}
+
+article p{
+    margin-bottom: 30px;
+}
+
+
+aside{
+    width: 800px;
+    position: relative;
+    float: right;
+}
+
+.formulario-contenedor .form .titulo-formulario{
+    text-align: center;
+    padding: 14px 0;
+
+}
+
+.formulario-contenedor .form{
+    padding: 5px 35px; 
+    margin: 70px;
+    border-radius: 6px;
+}
+
+.formulario-contenedor .form .form-label{
+    display: block;
+    color: #000;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.formulario-contenedor .form input, .form-textarea{
+    background:rgb(245,248,251);
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000;
+}
+
+
+.formulario-contenedor .form textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 100px;
+}
+
+.formulario-contenedor .form .btn-submit{
+    background: rgb(10, 101, 161);
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+
+}

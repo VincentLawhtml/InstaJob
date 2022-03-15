@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito+Sans:wght@200&family=Playfair+Display&family=Prompt:wght@100&display=swap');
+
+/*
+font-family: 'Lexend Deca', sans-serif; TITULO
+font-family: 'Nunito Sans', sans-serif; PARRAFO
+font-family: 'Playfair Display', serif; SUBTITULO
+font-family: 'Prompt', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+#videoheader{
+    width: 100%;
+    margin-bottom: 105px;
+}
+.Articulo1{
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#intro{
+    position: relative;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 105px;;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.lotion{
+    width: 412px;
+    position: relative;
+    float: left;
+}
+
+.lotion2{
+    width: 397px;
+    height: 478px;
+    float: right;
+}
+
+#texto1{
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: justify;
+    float: left;
+    height: 100%;
+    padding: 0px 46px 0px 46px;
+    margin-top: 95px;
+    margin-bottom: 100px;
+    width: 277px;
+}
+
+#texto2{
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 95px;
+    text-align: justify;
+    float: right;
+    width: 277px;
+    padding: 0px 46px 0px 46px;
+}
+
+#texto1::first-letter{
+    font-size: 2rem;
+  }
+
+#texto2::first-letter{
+    font-size: 2rem;
+  }
+  
